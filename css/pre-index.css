@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url('../img/background-picture.jpg') no-repeat;
+    background-size: 100% 100%;
+    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    -moz-background-size:100% 100%;
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
+/**********top-bar开始************/
+/*在大小的固定上面，需要通过JS得到屏幕的大小来进行确定，确保可以显示*/
+
+.top-bar{
+    background-color: #333;
+    width: 100%;
+    height:30px;
+    text-align: center;
+}
+
+.top-bar-content{
+    width: 1000px;
+    height: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+
+.top-bar-logo{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    background: url('../img/top-bar-logo.png') center center;
+}
+
+.top-bar-address{
+    float: left;
+    margin-left: 30px;
+    display: inline-block;
+    width: 250px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 13px;
+    color: #FFF;
+    font-weight: lighter;
+}
+
+.top-bar-address a{
+    margin-left: 10px;
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.top-bar-buttonList{
+    float: right;
+    margin-right: 50px;
+    width: 150px;
+    height: 30px;
+}
+
+.top-bar-buttonList ul{
+    list-style-type: none;
+}
+
+.top-bar-buttonList ul li{
+    margin: 0px 0px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+    background: #333;
+ }
+
+.top-bar-buttonList ul li a{
+    margin: 0px 0px;
+    display: block;
+    height: 30px;
+    width: 50px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background 0.4s ease;
+}
+
+.top-bar-buttonList ul li a:hover{
+    background: #ffbf50;
+}
+
+/********top-bar结束********/
+/********main-content开始********/
+
+.main-content{
+    margin: 0px auto;
+    width: 1200px;
+    height: 660px;
+    padding-top: 100px;
+    vertical-align: middle;
+}
+
+.main-content .main-link{
+    float: left;
+    border: solid #FFF 2px;
+    border-radius: 10px;
+    transition: box-shadow 0.4s ease;
+}
+
+.main-content .main-link:hover{
+    -moz-box-shadow: 0px 0px 10px #fff;
+    -webkit-box-shadow: 0px 0px 10px #fff;
+    box-shadow: 0px 0px 10px #fff;
+    transition: box-shadow 0.4s ease;
+}
+
+.main-link-borrow{
+    width: 300px;
+    height: 300px;
+    margin: 70px 50px 0px 50px;
+    color: #FFF;
+    font-size: 7em;
+    font-weight: bolder;
+}
+
+.main-link-borrow span{
+    display: inline-block;
+    line-height: 300px;
+    vertical-align: middle;
+}
+
+.main-link-view{
+    width: 250px;
+    height: 150px;
+    margin: 145px 50px 0px 50px;
+    color: #FFF;
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+.main-link-view span{
+    display: inline-block;
+    line-height: 150px;
+    vertical-align: middle;
+}
+
+.main-link-rent{
+    width: 300px;
+    height: 300px;
+    margin: 70px 0px 0px 50px;
+    color: #FFF;
+    font-size: 7em;
+    font-weight: bolder;
+}
+
+.main-link-rent span{
+    display: inline-block;
+    line-height: 300px;
+    vertical-align: middle;
+}
+
+/********main-content结束********/
+
+.bottom-bar{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+}
