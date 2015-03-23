@@ -94,6 +94,24 @@ body{
     background: url('../img/public-index-rent-button.png') no-repeat;
 }
 
+.search-form{
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+    padding-top: 25px;
+    line-height: 25px;
+    height: 80px;
+    width: 270px;
+    border: 1px solid #333333;
+    overflow: hidden;
+}
+
+.search-input{
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px #e3e3e3 solid;
+}
+
 .top-navBar-content-button{
     height: 80px;
     width: 60px;
