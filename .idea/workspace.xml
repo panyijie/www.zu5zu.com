@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14a9396e-7129-4328-839a-3f8cd13e6324" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/pubindex-indexmiddle.css" afterPath="$PROJECT_DIR$/css/pubindex-indexmiddle.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/pubindex-maincontent.css" afterPath="$PROJECT_DIR$/css/pubindex-maincontent.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public-index.html" afterPath="$PROJECT_DIR$/public-index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/public.css" afterPath="$PROJECT_DIR$/css/public.css" />
@@ -32,18 +31,18 @@
       <file leaf-file-name="public-index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public-index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="2895">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="32" />
+            <state vertical-scroll-proportion="-12.833333" vertical-offset="3427" max-vertical-offset="4350">
+              <caret line="249" column="33" selection-start-line="249" selection-start-column="33" selection-end-line="249" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="public.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/public.css">
+      <file leaf-file-name="pubindex-maincontent.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/pubindex-maincontent.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27272728" vertical-offset="1245" max-vertical-offset="2775">
-              <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.3272727" vertical-offset="5100" max-vertical-offset="6000">
+              <caret line="358" column="13" selection-start-line="358" selection-start-column="13" selection-end-line="358" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -65,8 +64,8 @@
         <option value="$PROJECT_DIR$/js/public-index-sliderBox.js" />
         <option value="$PROJECT_DIR$/css/pubindex-indexmiddle.css" />
         <option value="$PROJECT_DIR$/public-login.html" />
-        <option value="$PROJECT_DIR$/public-index.html" />
         <option value="$PROJECT_DIR$/css/public.css" />
+        <option value="$PROJECT_DIR$/public-index.html" />
         <option value="$PROJECT_DIR$/css/pubindex-maincontent.css" />
       </list>
     </option>
@@ -294,26 +293,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3090909" vertical-offset="1350" max-vertical-offset="3210">
+          <caret line="107" column="14" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/middle-content-shopList-item-active.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public-index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="2895">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="32" />
+        <state vertical-scroll-proportion="-12.833333" vertical-offset="3427" max-vertical-offset="4350">
+          <caret line="249" column="33" selection-start-line="249" selection-start-column="33" selection-end-line="249" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/pubindex-maincontent.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6727273" vertical-offset="3375" max-vertical-offset="4200">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/public.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27272728" vertical-offset="1245" max-vertical-offset="2775">
-          <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.3272727" vertical-offset="5100" max-vertical-offset="6000">
+          <caret line="358" column="13" selection-start-line="358" selection-start-column="13" selection-end-line="358" selection-end-column="13" />
           <folding />
         </state>
       </provider>
