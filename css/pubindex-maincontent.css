@@ -13,7 +13,7 @@
     width: 1060px;
     height: 130px;
     margin: 0 auto;
-    padding: 20px 10px;
+    padding: 5px 10px;
     border-top: 0.08em solid #e3e3e3;
     border-bottom: 0.08em solid #e3e3e3;
 }
@@ -151,7 +151,7 @@
 
 .middle-content-shopListArea{
     width: 1060px;
-    height: 270px;
+    height: auto;
     margin: 20px auto;
     padding: 20px 20px;
 }
@@ -170,7 +170,7 @@
 .middle-content-shopList-item{
     display: block;
     float: left;
-    width: 340px;
+    width: 330px;
     height: 100px;
     margin: 5px 5px;
     background-color: #f6f6f6;
@@ -206,14 +206,14 @@
 
 .main-content-list{
     width: 1060px;
-    height: 400px;
+    height: 450px;
     padding: 20px;
     margin: 20px auto;
 }
 
 .main-content-list-area{
     float: left;
-    width: 510px;
+    width: 490px;
     height: 100%;
 }
 
