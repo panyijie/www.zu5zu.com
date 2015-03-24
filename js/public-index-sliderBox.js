@@ -3,7 +3,7 @@
  */
 
 
-var flag = 1;
+flag = 1;
 var autoSlide = function(){
     switch (flag){
         case 1:
@@ -53,11 +53,10 @@ var autoSlide = function(){
     }
 };
 
-var SliderBoxAnimate = function(setAuto){
+var SliderBoxAnimate = function(){
     $("#middle-content-sliderBox-right-1").hover(
         function(){
             t = setTimeout(function() {
-                flag = 1;
                 clearInterval(setAuto);
                 var img = $("#middle-content-sliderBox-left-img");
                 var a = img.attr("src");
@@ -76,12 +75,13 @@ var SliderBoxAnimate = function(setAuto){
             },200);
         },function(){
             clearTimeout(t);
+            flag = 1;
             setAuto = setInterval(autoSlide,4000);
         });
     $("#middle-content-sliderBox-right-2").hover(
         function(){
             t = setTimeout(function() {
-                flag = 2;
+
                 clearInterval(setAuto);
                 var img = $("#middle-content-sliderBox-left-img");
                 var a = img.attr("src");
@@ -100,12 +100,12 @@ var SliderBoxAnimate = function(setAuto){
             },200);
         },function(){
             clearTimeout(t);
+            flag = 2;
             setAuto = setInterval(autoSlide,4000);
         });
     $("#middle-content-sliderBox-right-3").hover(
         function(){
             t = setTimeout(function() {
-                flag = 3;
                 clearInterval(setAuto);
                 var img = $("#middle-content-sliderBox-left-img");
                 var a = img.attr("src");
@@ -124,12 +124,13 @@ var SliderBoxAnimate = function(setAuto){
             },200);
         },function(){
             clearTimeout(t);
+            flag = 3;
             setAuto = setInterval(autoSlide,4000);
         });
     $("#middle-content-sliderBox-right-4").hover(
         function(){
             t = setTimeout(function() {
-                flag = 4;
+
                 clearInterval(setAuto);
                 var img = $("#middle-content-sliderBox-left-img");
                 var a = img.attr("src");
@@ -148,6 +149,7 @@ var SliderBoxAnimate = function(setAuto){
             },200);
         },function(){
             clearTimeout(t);
+            flag = 4;
             setAuto = setInterval(autoSlide,4000);
         });
 };
