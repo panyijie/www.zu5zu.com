@@ -1,0 +1,100 @@
+/*复写public-login.css中的middle-content的高度*/
+.middle-contentArea{
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    padding-top: 80px;
+    text-align: center;
+}
+
+/*login内容开始*/
+.middle-login-content{
+    width: 1100px;
+    height: 650px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #FFFFFF;
+    -moz-box-shadow: 0px 0px 6px #e9e9e9;
+    -webkit-box-shadow: 0px 0px 6px #e9e9e9;
+    box-shadow: 0px 0px 6px #e9e9e9;
+}
+
+.login-content-form-group{
+    width: 65%;
+    height: 100%;
+    float: left;
+    text-align: left;
+}
+
+.login-content-split{
+    width: 2%;
+    height: 570px;
+    margin: 15px 0;
+    border-left: 0.1em solid #f3f3f3;
+    float: left;
+}
+
+.login-content-button-group{
+    width: 33%;
+    height: 100%;
+    float: left;
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.login-content-button-group-turn{
+    width: 230px;
+    height: 80px;
+    margin: 0 0px 20px 10px;
+    padding-top: 20px;
+    border-bottom: 0.08em dashed #e4e4e4;
+    text-align: center;
+}
+
+.login-content-button-group span{
+    display: block;
+    float: left;
+    margin: 0 0 30px 10px;
+    color: #666666;
+}
+
+.login-content-button-group-turn span{
+    margin: 0;
+}
+
+.login-content-button-group a{
+    clear: left;
+    display: block;
+    width: 230px;
+    margin: 10px auto;
+    padding: 7px 20px;
+    border-radius: 3px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.login-content-button-group-1{
+    background-color: #229cff;
+}
+
+.login-content-button-group-2{
+    background-color: #f86833;
+}
+
+.login-content-button-group-3{
+    background-color: #09d321;
+}
+
+.login-content-button-group-turn span a{
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    color: #0a9cff;
+    text-decoration: none;
+}
+
+.login-content-button-group-turn span a:hover{
+    text-decoration: underline;
+}
