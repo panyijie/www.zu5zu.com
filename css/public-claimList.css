@@ -1,7 +1,7 @@
 /*复写public.css中的middle-content的高度*/
 .middle-contentArea{
     width: 100%;
-    height: 1200px;
+    height: 2000px;
     text-align: center;
     padding-top: 25px;
 }
@@ -240,7 +240,6 @@
     font-size: 10px;
 }
 
-
 .middle-advertisement-div{
     width: 100%;
     height: 120px;
@@ -250,13 +249,83 @@
     box-shadow: 0px 0px 6px #d7d7d7;
 }
 
-/*后面添加求租信息发布的CSS样式*/
+
 .middle-content-right-issue{
     width: 100%;
     margin-top: 10px;
     background-color: #ffffff;
-    height: 700px;
+    height: auto;
     -moz-box-shadow: 0px 0px 6px #d7d7d7;
     -webkit-box-shadow: 0px 0px 6px #d7d7d7;
     box-shadow: 0px 0px 6px #d7d7d7;
+    padding: 5px 20px;
+}
+
+.content-right-issue-title{
+    display: block;
+    padding-bottom: 5px;
+    height: 40px;
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #555555;
+    text-align: left;
+    border-bottom: 1px dashed #e3e3e3;
+}
+
+.content-right-issue-active{
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-bottom: 1px dashed #e3e3e3;
+}
+
+.content-right-issue-active-title{
+    display: block;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: bottom;
+}
+
+.content-right-issue-active-title a{
+    font-size: 17px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.content-right-issue-active-title a:hover{
+    color: #229cff;
+}
+
+.content-right-issue-active-startDate{
+    display: block;
+    float: right;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: bottom;
+    font-size: 12px;
+    color: #999;
+}
+
+.content-right-issue-active-description{
+    clear: both;
+    display: block;
+    height: 90px;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 13px;
+    color: #666;
+}
+
+.content-right-issue-active-activePerson{
+    display: block;
+    height: 17px;
+    line-height: 17px;
+    vertical-align: bottom;
+    text-align: right;
+    font-size: 12px;
+    color: #999999;
 }

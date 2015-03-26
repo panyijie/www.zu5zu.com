@@ -1,7 +1,7 @@
 /*复写public.css中的middle-content的高度*/
 .middle-contentArea{
     width: 100%;
-    height: 1200px;
+    height: 2000px;
     text-align: center;
     padding-top: 25px;
 }
@@ -240,7 +240,6 @@
     font-size: 10px;
 }
 
-
 .middle-advertisement-div{
     width: 100%;
     height: 120px;
@@ -250,13 +249,85 @@
     box-shadow: 0px 0px 6px #d7d7d7;
 }
 
-/*后面添加求租信息发布的CSS样式*/
+
 .middle-content-right-issue{
     width: 100%;
     margin-top: 10px;
     background-color: #ffffff;
-    height: 700px;
+    height: auto;
     -moz-box-shadow: 0px 0px 6px #d7d7d7;
     -webkit-box-shadow: 0px 0px 6px #d7d7d7;
     box-shadow: 0px 0px 6px #d7d7d7;
+    padding: 5px 20px;
+}
+
+.content-right-issue-title{
+    display: block;
+    padding-bottom: 5px;
+    height: 40px;
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #555555;
+    text-align: left;
+    border-bottom: 1px dashed #e3e3e3;
+}
+
+.content-right-issue-active{
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-bottom: 1px dashed #e3e3e3;
+}
+
+.content-right-issue-active-img{
+    display: block;
+    float: left;
+    width: 240px;
+    height: 140px;
+    margin-right: 20px;
+}
+
+.content-right-issue-active-infor{
+    display: block;
+    float: left;
+    width: 500px;
+    height: 140px;
+}
+
+.content-right-issue-active-title{
+    display: block;
+    height: 25px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #555555;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.content-right-issue-active-activeTime{
+    display: block;
+    height: 15px;
+    font-size: 12px;
+    color: #777777;
+    text-align: left;
+}
+
+.content-right-issue-active-person{
+    display: block;
+    height: 15px;
+    font-size: 12px;
+    color: #777777;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.content-right-issue-active-description{
+    display: block;
+    font-size: 12px;
+    color: #777777;
+    text-align: left;
+    margin-top: 5px;
 }

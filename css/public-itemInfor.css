@@ -240,23 +240,244 @@
     font-size: 10px;
 }
 
-
-.middle-advertisement-div{
+.middle-content-itemInfor{
     width: 100%;
-    height: 120px;
     background-color: #ffffff;
+    height: 420px;
     -moz-box-shadow: 0px 0px 6px #d7d7d7;
     -webkit-box-shadow: 0px 0px 6px #d7d7d7;
     box-shadow: 0px 0px 6px #d7d7d7;
 }
 
-/*后面添加求租信息发布的CSS样式*/
-.middle-content-right-issue{
+.middle-content-itemInfor-img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 20px 20px 5px 20px;
+}
+
+.middle-content-itemInfor-information{
+    width: 480px;
+    height: 395px;
+    float: right;
+    padding: 5px 10px;
+    margin: 20px 20px 10px 0;
+}
+
+.itemInfor-information-title{
+    display: block;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 0.08em #e7e7e7 dashed;
+    margin-bottom: 5px;
+}
+
+.itemInfor-information-description{
+    display: block;
+    text-align: left;
+    font-size: 11px;
+    color: #999999;
+    height: 90px;
+}
+
+.itemInfor-information-host{
+    display: block;
+    height: 80px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.itemInfor-information-host-img{
+    display: block;
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin: 10px 0;
+}
+
+.itemInfor-information-host-img img{
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.itemInfor-information-host-name{
+    display: block;
+    float: left;
+    height: 60px;
+    width: 170px;
+    margin: 10px;
+    line-height: 60px;
+    vertical-align: middle;
+    color: #888888;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 5px;
+    border-right: 1px solid #e7e7e7;
+}
+
+.itemInfor-information-host-good{
+    display: block;
+    float: left;
+    width: 140px;
+    height: 60px;
+    margin: 10px;
+}
+
+.itemInfor-information-host-good-span{
+    display: block;
     width: 100%;
-    margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 10px;
+    color: #999999;
+    text-align: left;
+}
+
+.itemInfor-information-form{
+    display: block;
+    height: 165px;
+    border-top: 1px dashed #e5e5e5;
+    padding-top: 5px;
+}
+
+.itemInfor-information-form-span{
+    display: block;
+    height: 36px;
+    margin: 2px 5px;
+    color: #333333;
+    font-size: 12px;
+    text-align: left;
+}
+
+.itemInfor-information-form-span-classify{
+    line-height: 36px;
+    vertical-align: middle;
+}
+
+.itemInfor-information-form-span-classify a{
+    padding: 3px 7px;
+    border: 1px solid #c2c2c2;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333333;
+}
+
+.itemInfor-information-form-span-classify a:hover{
+    border: 1px solid #f86833;
+}
+
+.itemInfor-information-form-span-num{
+    padding-top: 8px;
+}
+
+.itemInfor-information-form-span-num span{
+    color: #999999;
+}
+
+.form-span-num-button{
+    line-height: 15px;
+    vertical-align: middle;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+}
+
+.form-span-num-input{
+    width: 30px;
+    text-align: center;
+}
+
+.itemInfor-information-form-span-price{
+    line-height: 36px;
+    vertical-align: middle;
+}
+
+.itemInfor-information-form-span-price span{
+    margin:0 5px;
+    line-height: 36px;
+    vertical-align: middle;
+    font-size: 17px;
+    font-weight: bolder;
+    color: #ff3c3f;
+}
+
+.itemInfor-information-form-span-button button{
+    width: 70px;
+    height: 30px;
+    margin: 3px 35px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #f86833;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+}
+
+.middle-content-itemInfor-img-s{
+    width: 300px;
+    height: 50px;
+    margin: 0 20px 5px 20px;
+    float: left;
+}
+
+.itemInfor-img-span{
+    display: block;
+    float: left;
+    margin-left: 4px;
+    width: 70px;
+    height: 50px;
+    border: 1px #e7e7e7 solid;
+    padding: 4px;
+}
+
+.middle-content-itemInfor-detail{
+    width: 100%;
     background-color: #ffffff;
-    height: 700px;
+    height: 420px;
+    margin-top: 10px;
     -moz-box-shadow: 0px 0px 6px #d7d7d7;
     -webkit-box-shadow: 0px 0px 6px #d7d7d7;
     box-shadow: 0px 0px 6px #d7d7d7;
+}
+
+.itemInfor-detail-nav{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    font-size: 15px;
+}
+
+.itemInfor-detail-nav-line{
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 50%;
+    background-color: #f86833;
+}
+
+.itemInfor-detail-nav-left{
+    display: block;
+    float: left;
+    width: 50%;
+    height: 50px;
+    border-right: 1px #e6e6e6 solid;
+    line-height: 50px;
+    vertical-align: middle;
+    color: #333;
+}
+
+.itemInfor-detail-nav-right{
+    display: block;
+    float: left;
+    width: 50%;
+    height: 100%;
+    line-height: 50px;
+    vertical-align: middle;
+    color: #333;
+    border-bottom: 1px #e6e6e6 solid;
 }
