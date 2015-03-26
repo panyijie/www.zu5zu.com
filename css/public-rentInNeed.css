@@ -1,0 +1,262 @@
+/*复写public.css中的middle-content的高度*/
+.middle-contentArea{
+    width: 100%;
+    height: 2300px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+/*middle内容开始*/
+.middle-content{
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.middle-content-right{
+    width: 78%;
+    height: auto;
+    float: right;
+}
+
+.middle-content-left{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
+.middle-information-div{
+    width: 100%;
+    height: 220px;
+    background-color: #ffffff;
+    -moz-box-shadow: 0px 0px 6px #d7d7d7;
+    -webkit-box-shadow: 0px 0px 6px #d7d7d7;
+    box-shadow: 0px 0px 6px #d7d7d7;
+}
+
+.middle-information-img{
+    display: block;
+    float: left;
+    margin: 15px 5px 15px 20px;
+    width: 70px;
+    height: 70px;
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    border-radius: 35px;
+    -moz-box-shadow: 0px 0px 6px #d7d7d7;
+    -webkit-box-shadow: 0px 0px 6px #d7d7d7;
+    box-shadow: 0px 0px 6px #d7d7d7;
+    background: url("../img/middle-information-img.png") no-repeat;
+}
+
+.middle-information-content{
+    display: block;
+    float: left;
+    margin: 30px 10px 15px 10px;
+    font-size: 13px;
+    color: #666666;
+}
+
+.middle-information-content a{
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px 8px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+.middle-information-content a:hover{
+    background-color: #f86833;
+    color: #ffffff;
+}
+
+.middle-information-button-group{
+    display: block;
+    float: left;
+    width: 194px;
+    height: 110px;
+    margin: 0 10px;
+    border-top: 0.08em #e7e7e7 dashed;
+}
+
+.middle-information-button-group a{
+    display: block;
+    padding: 5px 10px;
+    margin: 5px 15px;
+    width: 170px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.middle-information-button-group-1{
+    background-color: #229cff;
+}
+
+.middle-information-button-group-2{
+    background-color: #f86833;
+}
+
+.middle-information-button-group-3{
+    background-color: #09d321;
+}
+
+.middle-shop-ranking-div{
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    -moz-box-shadow: 0px 0px 6px #d7d7d7;
+    -webkit-box-shadow: 0px 0px 6px #d7d7d7;
+    box-shadow: 0px 0px 6px #d7d7d7;
+}
+
+.middle-shop-ranking-div-title{
+    display: block;
+    height: 20px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #555555;
+}
+
+.middle-shop-ranking-list{
+    display: block;
+    clear: left;
+    width: 100%;
+    height: 65px;
+    margin-top: 8px;
+    border-top: 0.08em dashed #f3f3f3;
+}
+
+.middle-shop-ranking-list-num{
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 10px 5px 0 5px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #ffffff;
+    line-height: 40px;
+    vertical-align: middle;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.ranking-list-1{
+    background-color: #c0c472;
+}
+
+.middle-shop-ranking-list-content{
+    display: block;
+    float: left;
+    width: 133px;
+    height: 55px;
+    margin: 6px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ranking-list-content-1{
+    background: url("../img/ranking-list-content-1.png") no-repeat;
+}
+
+.ranking-list-content-title-1{
+    width: 100%;
+    background-color: #111;
+    display: block;
+    opacity: 0.5;
+    font-size: 12px;
+    color: #ffffff;
+    position: relative;
+    top: -17px;
+}
+
+.ranking-list-content-title-1:hover{
+    text-decoration: underline;
+}
+
+.middle-recommend-item-div{
+    width: 100%;
+    height: 390px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    -moz-box-shadow: 0px 0px 6px #d7d7d7;
+    -webkit-box-shadow: 0px 0px 6px #d7d7d7;
+    box-shadow: 0px 0px 6px #d7d7d7;
+    padding: 5px 10px;
+}
+
+.middle-recommend-item-div-item{
+    display: block;
+    width: 100%;
+    height: 80px;
+    border-top: 1px dashed #e4e4e4;
+    margin-top: 10px;
+}
+
+.middle-recommend-item-div-item-img{
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    background-color: #333333;
+}
+
+.middle-recommend-item-div-item-name{
+    display: block;
+    float: left;
+    margin: 10px 0 5px 0;
+}
+
+.middle-recommend-item-div-item-name a{
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.middle-recommend-item-div-item-host{
+    display: block;
+    float: left;
+    color: #777777;
+    font-size: 10px;
+}
+
+.middle-recommend-item-div-item-rentNum{
+    display: block;
+    float: left;
+    color: #777777;
+    margin-top: 4px;
+    font-size: 10px;
+}
+
+
+.middle-advertisement-div{
+    width: 100%;
+    height: 120px;
+    background-color: #ffffff;
+    -moz-box-shadow: 0px 0px 6px #d7d7d7;
+    -webkit-box-shadow: 0px 0px 6px #d7d7d7;
+    box-shadow: 0px 0px 6px #d7d7d7;
+}
+
+/*后面添加求租信息发布的CSS样式*/
+.middle-content-right-issue{
+    width: 100%;
+    margin-top: 10px;
+    background-color: #ffffff;
+    height: 700px;
+    -moz-box-shadow: 0px 0px 6px #d7d7d7;
+    -webkit-box-shadow: 0px 0px 6px #d7d7d7;
+    box-shadow: 0px 0px 6px #d7d7d7;
+}
