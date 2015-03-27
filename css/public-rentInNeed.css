@@ -254,9 +254,148 @@
 .middle-content-right-issue{
     width: 100%;
     margin-top: 10px;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     height: 700px;
     -moz-box-shadow: 0px 0px 6px #d7d7d7;
     -webkit-box-shadow: 0px 0px 6px #d7d7d7;
     box-shadow: 0px 0px 6px #d7d7d7;
 }
+
+.rent-content-form-group{
+    width: 60%;
+    height: 100%;
+    float: left;
+    text-align: left;
+}
+
+.rent-content-form-title{
+    margin:10px 30px;
+
+}
+
+.rent-content-form-title label{
+    font-weight: bolder;
+    padding-right: 10px;
+    font-size: 25px;
+    color: #555;
+}
+
+.rent-content-form-title a{
+    font-size: 13px;
+    padding: 8px 10px 0 10px;
+    border-left: 0.08em solid #f0f0f0;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
+}
+
+.rent-content-form-title a:hover{
+    color: #f86833;
+    transition: color 0.3s ease;
+}
+
+.rent-content-form-title a span{
+    margin-left: 5px;
+}
+
+.rent-content-form{
+    margin: 60px 0 0 70px;
+}
+
+.rent-content-form table{
+    border: none;
+}
+
+.rent-content-form table tr{
+    height: 50px;
+}
+
+.rent-content-form table tr td{
+    padding: 10px 5px;
+}
+
+.rent-content-form-input{
+    margin-left: 10px;
+    line-height: 30px;
+    vertical-align: middle;
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+    border: 1px solid #e7e7e7;
+    padding-left: 5px;
+}
+
+.rent-content-form-input:focus{
+    b ackground: none no-repeat;
+    outline:medium;
+    border: 1px solid #0a9cff;
+}
+
+.rent-content-form-text{
+    margin-left: 10px;
+
+    border-radius: 3px;
+    border: 1px solid #e7e7e7;
+    padding-left: 5px;
+}
+
+.rent-content-form-text:focus{
+    background: none no-repeat;
+    outline:medium;
+    border: 1px solid #0a9cff;
+}
+
+.rent-content-form-imp{
+    color: red;
+    margin-right: 6px;
+}
+
+.rent-content-form-lab{
+    color: #666666;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.rent-content-form-pic{
+    width: 70px;
+    height: 40px;
+    border: 1px dashed #e7e7e7;
+    float: left;
+    margin: 0 10px 0 10px;
+}
+
+.rent-content-split{
+    width: 2%;
+    height: 400px;
+    margin: 30px 0;
+    border-left: 0.1em solid #f3f3f3;
+    float: left;
+}
+
+.rent-content-upload{
+    float: left;
+    margin: 110px 0 0 70px;
+}
+
+.rent-content-upload table{
+    border: none;
+}
+
+.rent-content-upload table tr td{
+    pading: 10px 5px 0 0;
+
+}
+
+.rent-content-upload table tr td div{
+    width: 130px;
+    height: 173px;
+    border: 1px dashed #e7e7e7;
+}
+
+.rent-content-upload table tr td p{
+    text-align: center;
+    font-size: 12px;
+}
+
