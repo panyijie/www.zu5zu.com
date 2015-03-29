@@ -1,0 +1,440 @@
+/*复写public.css中的middle-content的高度*/
+.middle-contentArea{
+    width: 100%;
+    height: 1200px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+/*middle内容开始*/
+.middle-content{
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.middle-content-right{
+    width: 78%;
+    height: auto;
+    float: right;
+}
+
+.middle-content-left{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
+.middle-information-div{
+    width: 100%;
+    height: 220px;
+    background-color: #ffffff;
+    -moz-box-shadow: 0px 0px 6px #d7d7d7;
+    -webkit-box-shadow: 0px 0px 6px #d7d7d7;
+    box-shadow: 0px 0px 6px #d7d7d7;
+}
+
+.middle-information-img{
+    display: block;
+    float: left;
+    margin: 15px 5px 15px 20px;
+    width: 70px;
+    height: 70px;
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    border-radius: 35px;
+    -moz-box-shadow: 0px 0px 6px #d7d7d7;
+    -webkit-box-shadow: 0px 0px 6px #d7d7d7;
+    box-shadow: 0px 0px 6px #d7d7d7;
+    background: url("../img/middle-information-img.png") no-repeat;
+}
+
+.middle-information-content{
+    display: block;
+    float: left;
+    margin: 30px 10px 15px 10px;
+    font-size: 13px;
+    color: #666666;
+}
+
+.middle-information-content a{
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px 8px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+.middle-information-content a:hover{
+    background-color: #f86833;
+    color: #ffffff;
+}
+
+.middle-information-button-group{
+    display: block;
+    float: left;
+    width: 194px;
+    height: 110px;
+    margin: 0 10px;
+    border-top: 0.08em #e7e7e7 dashed;
+}
+
+.middle-information-button-group a{
+    display: block;
+    padding: 5px 10px;
+    margin: 5px 15px;
+    width: 170px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.middle-information-button-group-1{
+    background-color: #229cff;
+}
+
+.middle-information-button-group-2{
+    background-color: #f86833;
+}
+
+.middle-information-button-group-3{
+    background-color: #09d321;
+}
+
+.middle-shop-ranking-div{
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    -moz-box-shadow: 0px 0px 6px #d7d7d7;
+    -webkit-box-shadow: 0px 0px 6px #d7d7d7;
+    box-shadow: 0px 0px 6px #d7d7d7;
+}
+
+.middle-shop-ranking-div-title{
+    display: block;
+    height: 20px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #555555;
+}
+
+.middle-shop-ranking-list{
+    display: block;
+    clear: left;
+    width: 100%;
+    height: 65px;
+    margin-top: 8px;
+    border-top: 0.08em dashed #f3f3f3;
+}
+
+.middle-shop-ranking-list-num{
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 10px 5px 0 5px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #ffffff;
+    line-height: 40px;
+    vertical-align: middle;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.ranking-list-1{
+    background-color: #c0c472;
+}
+
+.middle-shop-ranking-list-content{
+    display: block;
+    float: left;
+    width: 133px;
+    height: 55px;
+    margin: 6px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ranking-list-content-1{
+    background: url("../img/ranking-list-content-1.png") no-repeat;
+}
+
+.ranking-list-content-title-1{
+    width: 100%;
+    background-color: #111;
+    display: block;
+    opacity: 0.5;
+    font-size: 12px;
+    color: #ffffff;
+    position: relative;
+    top: -17px;
+}
+
+.ranking-list-content-title-1:hover{
+    text-decoration: underline;
+}
+
+.middle-recommend-item-div{
+    width: 100%;
+    height: 390px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    -moz-box-shadow: 0px 0px 6px #d7d7d7;
+    -webkit-box-shadow: 0px 0px 6px #d7d7d7;
+    box-shadow: 0px 0px 6px #d7d7d7;
+    padding: 5px 10px;
+}
+
+.middle-recommend-item-div-item{
+    display: block;
+    width: 100%;
+    height: 80px;
+    border-top: 1px dashed #e4e4e4;
+    margin-top: 10px;
+}
+
+.middle-recommend-item-div-item-img{
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    background-color: #333333;
+}
+
+.middle-recommend-item-div-item-name{
+    display: block;
+    float: left;
+    margin: 10px 0 5px 0;
+}
+
+.middle-recommend-item-div-item-name a{
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.middle-recommend-item-div-item-host{
+    display: block;
+    float: left;
+    color: #777777;
+    font-size: 10px;
+}
+
+.middle-recommend-item-div-item-rentNum{
+    display: block;
+    float: left;
+    color: #777777;
+    margin-top: 4px;
+    font-size: 10px;
+}
+
+
+.middle-advertisement-div{
+    width: 100%;
+    height: 120px;
+    background-color: #ffffff;
+    -moz-box-shadow: 0px 0px 6px #d7d7d7;
+    -webkit-box-shadow: 0px 0px 6px #d7d7d7;
+    box-shadow: 0px 0px 6px #d7d7d7;
+}
+
+/*后面添加求租信息总揽的CSS样式*/
+
+.middle-content-right-issue{
+    width: 100%;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    height: 700px;
+    -moz-box-shadow: 0px 0px 6px #d7d7d7;
+    -webkit-box-shadow: 0px 0px 6px #d7d7d7;
+    box-shadow: 0px 0px 6px #d7d7d7;
+    padding: 10px;
+}
+
+.rentInfo-header{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.rentInfo-title{
+    margin:10px 30px;
+    float: left;
+}
+
+.rentInfo-title label{
+    font-weight: bolder;
+    padding-right: 10px;
+    font-size: 25px;
+    color: #555;
+}
+
+.rentInfo-title a{
+    font-size: 13px;
+    padding: 8px 10px 0 10px;
+    border-left: 0.08em solid #f0f0f0;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
+}
+
+.rentInfo-title a:hover{
+    color: #f86833;
+    transition: color 0.3s ease;
+}
+
+.rentInfo-title a span{
+    margin-left: 5px;
+}
+
+.rentInfo-search-form{
+    display: inline-block;
+    float: left;
+    margin-left: 120px;
+    padding-top: 13px;
+    line-height: 30px;
+    height: 50px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.rentInfo-search-input{
+    display: inline-block;
+    padding-left: 5px;
+    border-radius: 3px;
+    border: 1px #e3e3e3 solid;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.rentInfo-search-input:focus{
+    background: none no-repeat;
+    outline:medium;
+}
+
+.rentInfo-search-form a{
+    display: inline-block;
+    padding: 0 7px;
+    border-radius: 3px;
+    color: #FFFFFF;
+    background-color: #0a9cff;
+    transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+}
+
+.rentInfo-search-form a:hover{
+    background-color: #f86833;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+}
+
+.rentInfo-item{
+    display: block;
+    float: left;
+    width: 380px;
+    height: 180px;
+    margin: 10px 14px 0 10px;
+    padding: 8px 8px 5px 10px;
+    background-color: #f6f6f6;
+    transition: 0.3s ease;
+    position: relative;
+}
+
+.rentInfo-item:hover{
+    -moz-box-shadow: 0px 0px 6px #c3c3c3;
+    -webkit-box-shadow: 0px 0px 6px #c3c3c3;
+    box-shadow: 0 0 6px #c3c3c3;
+}
+
+.rentInfo-item-wanted{
+    display: block;
+    float: left;
+    font-size: 15px;
+    color: #888;
+}
+
+.rentInfo-item-wanted:hover{
+    color: #1c9cfb;
+    text-decoration: none;
+}
+
+.rentInfo-item-type{
+    display: block;
+    float: left;
+    margin: 0px 5px 0 30px;
+    padding:3px 6px;
+    font-size: 11px;
+    color: #666;
+    background-color: #fff;
+}
+
+.glyphicon-chevron-right{
+    display: block;
+    float: right;
+    color: #c8c8c8;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.glyphicon-chevron-right:hover{
+    color: #16b1fa;
+    transition: color 0.3s ease;
+}
+
+.rentInfo-item-prove{
+    display: block;
+    float: left;
+}
+
+.rentInfo-item-publisher{
+    display: block;
+    float: left;
+    color: #888888;
+}
+
+.rentInfo-item-img{
+    display: block;
+    margin: 5px 10px 0px 0;
+    float: left;
+    width: 180px;
+    height: 110px;
+}
+
+.rentInfo-item-describe{
+    display: block;
+    font-size: 10px;
+    margin: 5px 10px 0 190px;
+}
+
+.rentInfo-item-describe label{
+    text-align: left;
+    float: left;
+}
+
+.rentInfo-item-more{
+    display: block;
+    font-size: 10px;
+    float: right;
+    margin-top: 30px;
+}
