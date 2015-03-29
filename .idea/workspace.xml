@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14a9396e-7129-4328-839a-3f8cd13e6324" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/public-shopInfor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public-shopInfor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/public-rentInNeed.css" afterPath="$PROJECT_DIR$/css/public-rentInNeed.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public-rentInNeed.html" afterPath="$PROJECT_DIR$/public-rentInNeed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="14a9396e-7129-4328-839a-3f8cd13e6324" name="Default" comment="" />
     <ignored path="www.zu5zu.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,8 +46,8 @@
       <file leaf-file-name="public-rentInNeed.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public-rentInNeed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2284263" vertical-offset="1882" max-vertical-offset="3300">
-              <caret line="190" column="47" selection-start-line="190" selection-start-column="43" selection-end-line="190" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.20050761" vertical-offset="1882" max-vertical-offset="3300">
+              <caret line="136" column="14" selection-start-line="136" selection-start-column="14" selection-end-line="136" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -534,8 +528,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public-rentInNeed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2284263" vertical-offset="1882" max-vertical-offset="3300">
-          <caret line="190" column="47" selection-start-line="190" selection-start-column="43" selection-end-line="190" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.20050761" vertical-offset="1882" max-vertical-offset="3300">
+          <caret line="136" column="14" selection-start-line="136" selection-start-column="14" selection-end-line="136" selection-end-column="14" />
           <folding />
         </state>
       </provider>
