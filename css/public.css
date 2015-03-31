@@ -16,6 +16,8 @@ body{
     height: 80px;
     background-color: #FFFFFF;
     -moz-box-shadow: 0px 0px 6px #999;
+    -o-box-shadow: 0px 0px 6px #999;
+    -ms-box-shadow: 0px 0px 6px #999;
     -webkit-box-shadow: 0px 0px 6px #999;
     box-shadow: 0px 0px 6px #999;
     text-align: center;
@@ -51,11 +53,19 @@ body{
 .top-navBar-content-address a{
     color: #888;
     text-decoration: none;
+    -o-transition: color 0.2s ease;
+    -ms-transition: color 0.2s ease;
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
     transition: color 0.2s ease;
 }
 
 .top-navBar-content-address a:hover{
     color: #f86833;
+    -o-transition: color 0.2s ease;
+    -ms-transition: color 0.2s ease;
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
     transition: color 0.2s ease;
 }
 
