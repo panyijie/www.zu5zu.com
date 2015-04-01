@@ -1,0 +1,55 @@
+.main-content-list-area
+{
+	width:100%;
+}
+
+.about-us
+{
+   font-size:16px;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   width:100%;
+   overflow:auto;
+   text-align:left;
+   padding:5px;
+	vertical-align:bottom;
+}
+.about-title
+{
+	padding:11px 35px;
+	border:#e0e0e0 solid 8px;
+	background: #eeeeee url('../img/about-us.png') no-repeat 1%;
+	
+}
+.hid
+{
+	display:none;
+}
+
+.show
+{
+	display:block;
+}
+.about-img
+{
+	float:left;
+	margin:30px;
+	padding:10px;
+	
+}
+.about-detail
+{
+	margin:30px;
+	padding:10px;
+}
+.returnIndex
+{
+	color:#444444;
+	font-size:20px;
+	background:#eeeeee;
+	position:fixed;
+	left:96%;
+	bottom:10%;
+	border:5px solid #e0e0e0;
+	padding:5px;
+	float:right;
+}

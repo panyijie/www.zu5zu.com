@@ -51,6 +51,16 @@
     text-align: center;
 }
 
+.login-content-button-group-turn a{
+    text-decoration: none;
+}
+
+.login-content-button-group-turn a:hover{
+    color: #f86833;
+    text-decoration: none;
+}
+
+
 .login-content-button-group span{
     display: block;
     float: left;

@@ -8,7 +8,7 @@ $(document).ready(function(){
                 left:'9px',
                 width:'50px'
             },"fast");
-        },400);
+        },200);
     },function(){
         clearTimeout(time);
     });
@@ -18,7 +18,7 @@ $(document).ready(function(){
             left:'80px',
             width:'90px'
         },"fast");
-        },400);
+        },200);
     },function(){
         clearTimeout(time);
     });
@@ -29,7 +29,7 @@ $(document).ready(function(){
             left:'198px',
             width:'90px'
         },"fast");
-        },400);
+        },200);
     },function(){
         clearTimeout(time);
     });
@@ -39,7 +39,7 @@ $(document).ready(function(){
             left:'317px',
             width:'90px'
         },"fast");
-        },400);
+        },200);
     },function(){
         clearTimeout(time);
     });
@@ -49,7 +49,7 @@ $(document).ready(function(){
             left:'435px',
             width:'90px'
         },"fast");
-        },400);
+        },200);
     },function(){
         clearTimeout(time);
     });
@@ -59,7 +59,7 @@ $(document).ready(function(){
             left:'553px',
             width:'90px'
         },"fast");
-        },400);
+        },200);
     },function(){
         clearTimeout(time);
     });
@@ -69,7 +69,7 @@ $(document).ready(function(){
             left:'672px',
             width:'90px'
         },"fast");
-        },400);
+        },200);
     },function(){
         clearTimeout(time);
     });
@@ -79,7 +79,7 @@ $(document).ready(function(){
             left:'785px',
             width:'50px'
         },"fast");
-        },400);
+        },200);
     },function(){
         clearTimeout(time);
     });

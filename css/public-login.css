@@ -74,6 +74,16 @@
 
 }
 
+.login-content-form table tr td a{
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.login-content-form table tr td a:hover{
+    text-decoration: none;
+    color: #16508c;
+}
+
 .login-content-form-input{
     margin-left: 10px;
     height: 30px;

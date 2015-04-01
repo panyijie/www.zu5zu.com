@@ -1,7 +1,7 @@
 /*复写public.css中的middle-content的高度*/
 .middle-contentArea{
     width: 100%;
-    height: 2300px;
+    height: auto;
     text-align: center;
     padding-top: 25px;
 }
@@ -18,12 +18,14 @@
     width: 78%;
     height: auto;
     float: right;
+    margin-bottom: 50px;
 }
 
 .middle-content-left{
     width: 20%;
     height: auto;
     float: left;
+    position: relative;
 }
 
 .middle-information-div{
@@ -157,6 +159,22 @@
     background-color: #c0c472;
 }
 
+.ranking-list-2{
+    background-color: #8bc45e;
+}
+
+.ranking-list-3{
+    background-color: #8bc45e;
+}
+
+.ranking-list-4{
+    background-color: #80BEC4;
+}
+
+.ranking-list-5{
+    background-color: #80BEC4;
+}
+
 .middle-shop-ranking-list-content{
     display: block;
     float: left;
@@ -167,11 +185,7 @@
     position: relative;
 }
 
-.ranking-list-content-1{
-    background: url("../img/ranking-list-content-1.png") no-repeat;
-}
-
-.ranking-list-content-title-1{
+.ranking-list-content-title{
     width: 100%;
     background-color: #111;
     display: block;
@@ -180,6 +194,26 @@
     color: #ffffff;
     position: relative;
     top: -17px;
+}
+
+.ranking-list-content-1{
+    background: url("../img/ranking-list-content-1.png") no-repeat;
+}
+
+.ranking-list-content-2{
+    background: url("../img/ranking-list-content-1.png") no-repeat;
+}
+
+.ranking-list-content-3{
+    background: url("../img/ranking-list-content-1.png") no-repeat;
+}
+
+.ranking-list-content-4{
+    background: url("../img/ranking-list-content-1.png") no-repeat;
+}
+
+.ranking-list-content-5{
+    background: url("../img/ranking-list-content-1.png") no-repeat;
 }
 
 .ranking-list-content-title-1:hover{
@@ -195,6 +229,7 @@
     -webkit-box-shadow: 0px 0px 6px #d7d7d7;
     box-shadow: 0px 0px 6px #d7d7d7;
     padding: 5px 10px;
+    position: relative;
 }
 
 .middle-recommend-item-div-item{
@@ -244,10 +279,31 @@
 .middle-advertisement-div{
     width: 100%;
     height: 120px;
-    background-color: #ffffff;
+    background: url('../img/middle-advertisement-div.png') no-repeat;
     -moz-box-shadow: 0px 0px 6px #d7d7d7;
     -webkit-box-shadow: 0px 0px 6px #d7d7d7;
     box-shadow: 0px 0px 6px #d7d7d7;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.middle-advertisement-div-X{
+    display: block;
+    position: relative;
+    top: 5%;
+    left: 96%;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background-color: #999999;
+    border-radius: 8px;
+    color: #ffffff;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.middle-advertisement-div-X:hover{
+    opacity: 1;
 }
 
 .middle-classify-div{
@@ -257,7 +313,6 @@
     -moz-box-shadow: 0px 0px 6px #d7d7d7;
     -webkit-box-shadow: 0px 0px 6px #d7d7d7;
     box-shadow: 0px 0px 6px #d7d7d7;
-    margin-top: 10px;
 }
 
 .middle-classify-top{

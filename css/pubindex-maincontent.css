@@ -34,6 +34,7 @@
     vertical-align: middle;
     font-weight: bolder;
     color: #777;
+    margin-bottom: 10px;
     padding-bottom: 5px;
     float: left;
 }
@@ -132,8 +133,8 @@
 .middle-content-classify-area-claim-span ul li{
     display: inline-block;
     width: 270px;
-    height: 23px;
-    line-height: 25px;
+    height: 20px;
+    line-height: 20px;
     vertical-align: bottom;
     border-bottom: 1px dashed #d5d5d5;
 }
@@ -414,7 +415,7 @@
 .main-content-rent-list-item{
     float: left;
     display: block;
-    width: 150px;
+    width: 231px;
     height: 200px;
     padding: 5px;
     text-align: center;
@@ -440,31 +441,53 @@
 
 .main-content-rent-list-item-classify{
     display: block;
-    height: 18px;
-    font-size: 8px;
+    height: 20px;
     text-align: left;
-    vertical-align: middle;
     margin-bottom: 5px;
 }
 
 .main-content-rent-list-item-classify a{
-    display: inline-block;
-    padding: 2px 4px;
-    text-decoration: none;
-    -moz-box-shadow: 0px 0px 6px #e3e3e3;
-    -webkit-box-shadow: 0px 0px 6px #e3e3e3;
-    box-shadow: 0 0 6px #e3e3e3;
+     display: inline-block;
+     padding: 1px 4px;
+     font-size: 8px;
+     text-decoration: none;
+     -moz-box-shadow: 0px 0px 3px #e3e3e3;
+     -webkit-box-shadow: 0px 0px 3px #e3e3e3;
+     box-shadow: 0 0 3px #e3e3e3;
+ }
+
+.main-content-rent-list-item-classify a:hover{
+    color: #ff5d4b;
 }
 
 .main-content-rent-list-item-description{
     display: block;
+    float: left;
+    width: 110px;
+    height: 110px;
     text-align: left;
     line-height: 15px;
+    margin-top: 5px;
+    padding: 5px;
 }
 
 .main-content-rent-list-item-description a{
     font-size: 5px;
     color: #777;
+
+}
+
+.main-content-rent-list-item-photo{
+    display: block;
+    float: left;
+    width: 110px;
+    height: 110px;
+    margin-top: 5px;
+}
+
+.main-content-rent-list-item-photo img{
+    width: 105px;
+    height: 105px;
 }
 
 .main-content-rent-list-item-button{
@@ -472,24 +495,27 @@
     margin-top: 5px;
 }
 
-.main-content-rent-list-item-button-a1{
-    display: inline-block;
-    float: left;
-    padding: 3px 8px;
-    background-color: #0a9cff;
-    border-radius: 3px;
-    color: #ffffff;
-    font-size: 10px;
-    text-decoration: none;
-}
-
-.main-content-rent-list-item-button-a2{
+.main-content-rent-list-item-button a{
     display: inline-block;
     float: right;
     padding: 3px 8px;
-    background-color: #0a9cff;
+    margin-top: 2px;
     border-radius: 3px;
     color: #ffffff;
     font-size: 10px;
     text-decoration: none;
+    margin-right: 10px;
+}
+
+.main-content-rent-list-item-button a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main-content-rent-list-item-button-a1{
+    background-color: #0a9cff;
+}
+
+.main-content-rent-list-item-button-a2{
+    background-color: #ff5d4b;
 }
