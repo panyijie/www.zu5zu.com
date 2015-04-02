@@ -1,7 +1,7 @@
 /*复写public.css中的middle-content的高度*/
 .middle-contentArea{
     width: 100%;
-    height: 1200px;
+    height: auto;
     text-align: center;
     padding-top: 25px;
 }
@@ -18,6 +18,7 @@
     width: 78%;
     height: auto;
     float: right;
+    margin-bottom: 50px;
 }
 
 .middle-content-left{
@@ -253,12 +254,15 @@
 /*后面添加求租信息发布的CSS样式*/
 .middle-content-right-issue{
     width: 100%;
-    margin-top: 10px;
     background-color: #FFFFFF;
     height: 700px;
     -moz-box-shadow: 0px 0px 6px #d7d7d7;
     -webkit-box-shadow: 0px 0px 6px #d7d7d7;
     box-shadow: 0px 0px 6px #d7d7d7;
+}
+
+.middle-rent-content{
+    padding: 10px;
 }
 
 .rent-content-form-group{
@@ -301,7 +305,7 @@
 }
 
 .rent-content-form{
-    margin: 60px 0 0 70px;
+    margin: 60px 0 0 60px;
 }
 
 .rent-content-form table{
@@ -313,7 +317,20 @@
 }
 
 .rent-content-form table tr td{
-    padding: 10px 5px;
+    padding: 10px 1px;
+}
+
+.rent-content-form table tr td select{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rent-content-form table tr td a{
+    display: inline-block;
+}
+
+.rent-content-form table tr td a:hover{
+    text-decoration: none;
 }
 
 .rent-content-form-input{
@@ -321,7 +338,7 @@
     line-height: 30px;
     vertical-align: middle;
     height: 30px;
-    width: 100px;
+    /*width: 100px;*/
     border-radius: 3px;
     border: 1px solid #e7e7e7;
     padding-left: 5px;
@@ -333,9 +350,21 @@
     border: 1px solid #0a9cff;
 }
 
+.input-product{
+    width:100px;
+}
+
+.input-price{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.input-verify{
+    width: 100px;
+}
+
 .rent-content-form-text{
     margin-left: 10px;
-
     border-radius: 3px;
     border: 1px solid #e7e7e7;
     padding-left: 5px;
@@ -358,18 +387,35 @@
     font-weight: lighter;
 }
 
+.rent-content-form-publisher{
+    margin-left: 10px;
+}
+
+
 .rent-content-form-pic{
     width: 70px;
-    height: 40px;
+    height: 30px;
     border: 1px dashed #e7e7e7;
     float: left;
     margin: 0 10px 0 10px;
 }
 
+.rent-content-form-btn{
+    margin-left: 10px;
+    background-color: #f86833;
+    border: none;
+    color: #ffffff;
+}
+
+.rent-content-form-btn:hover{
+    background-color: #ff4955;
+    color: #ffffff;
+}
+
 .rent-content-split{
     width: 2%;
-    height: 400px;
-    margin: 30px 0;
+    height: 570px;
+    margin: 15px 0;
     border-left: 0.1em solid #f3f3f3;
     float: left;
 }
@@ -384,7 +430,7 @@
 }
 
 .rent-content-upload table tr td{
-    pading: 10px 5px 0 0;
+    padding: 10px 5px 0 0;
 
 }
 

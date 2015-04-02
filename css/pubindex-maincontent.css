@@ -61,7 +61,7 @@
     padding-bottom: 5px;
     padding-right: 18px;
     color: #555;
-    font-size: 5px;
+    font-size: 12px;
     transition: color 0.3s ease;
 }
 
@@ -377,7 +377,7 @@
 
 .main-content-list-item-rentNum{
     color: #c3c3c3;
-    font-size: 4px;
+    font-size: 10px;
     display: block;
     float: right;
     margin:6px 3px 0 0;
@@ -444,12 +444,13 @@
     height: 20px;
     text-align: left;
     margin-bottom: 5px;
+    font-size: 12px;
 }
 
 .main-content-rent-list-item-classify a{
      display: inline-block;
      padding: 1px 4px;
-     font-size: 8px;
+     font-size: 11px;
      text-decoration: none;
      -moz-box-shadow: 0px 0px 3px #e3e3e3;
      -webkit-box-shadow: 0px 0px 3px #e3e3e3;
@@ -472,9 +473,8 @@
 }
 
 .main-content-rent-list-item-description a{
-    font-size: 5px;
     color: #777;
-
+    font-size: 11px;
 }
 
 .main-content-rent-list-item-photo{

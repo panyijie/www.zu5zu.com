@@ -263,16 +263,20 @@
 .middle-recommend-item-div-item-host{
     display: block;
     float: left;
+    width: 110px;
     color: #777777;
     font-size: 10px;
+    text-align: left;
 }
 
 .middle-recommend-item-div-item-rentNum{
     display: block;
     float: left;
+    width: 110px;
     color: #777777;
     margin-top: 4px;
     font-size: 10px;
+    text-align: left;
 }
 
 
