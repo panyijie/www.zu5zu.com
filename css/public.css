@@ -30,7 +30,7 @@ body{
 }
 
 .top-navBar-content-logo{
-    background: url('/img/public-index-logo.png') no-repeat;
+    background: url('../img/public-index-logo.png') no-repeat;
     float: left;
     width: 180px;
     height: 80px;
@@ -80,7 +80,7 @@ body{
     font-size: 16px;
     margin: 20px 0px 0px 0px;
     padding-left: 20px;
-    background: url('/img/public-index-borrow-button.png') no-repeat;
+    background: url('../img/public-index-borrow-button.png') no-repeat;
 }
 
 .top-navBar-content-borrow-split{
@@ -101,7 +101,7 @@ body{
     font-size: 16px;
     margin: 20px 0px 0px 10px;
     padding-left: 35px;
-    background: url('/img/public-index-rent-button.png') no-repeat;
+    background: url('../img/public-index-rent-button.png') no-repeat;
 }
 
 .search-form{
