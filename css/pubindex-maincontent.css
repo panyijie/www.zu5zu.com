@@ -2,6 +2,7 @@
     width: 100%;
     padding: 30px 0 0 0;
     height: auto;
+    min-width: 1100px;
     background-color: #FFF;
     -moz-box-shadow: 0px 0px 6px #c3c3c3;
     -webkit-box-shadow: 0px 0px 6px #c3c3c3;
