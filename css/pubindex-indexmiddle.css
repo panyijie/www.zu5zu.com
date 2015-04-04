@@ -105,3 +105,27 @@
 .popular-active span{
     color: #f86833;
 }
+
+@media screen and (max-width: 320px){
+    .middle-content{
+        width: 100%;
+    }
+
+    .middle-content-sliderBox{
+        display: none;
+    }
+
+    .middle-content-popular{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 0 20px;
+    }
+
+    .middle-content-popular-item{
+        height: 25px;
+        padding:0px 10px;
+        margin: 8px 5px 0px 0px;
+        line-height: 25px;
+    }
+}

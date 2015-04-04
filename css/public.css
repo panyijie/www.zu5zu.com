@@ -13,8 +13,7 @@ body{
 
 .top-navBar{
     width: 100%;
-    height: 80px;
-    min-width: 1100px;
+    height: auto;
     background-color: #FFFFFF;
     -moz-box-shadow: 0px 0px 6px #999;
     -o-box-shadow: 0px 0px 6px #999;
@@ -28,6 +27,7 @@ body{
     width: 1100px;
     height: 100%;
     margin: 0px auto;
+    text-align: center;
 }
 
 .top-navBar-content-logo{
@@ -46,7 +46,7 @@ body{
     height: 80px;
     line-height: 80px;
     display: inline-block;
-    color: #444;
+    color: #555;
     font-size: 14px;
     vertical-align: middle;
 }
@@ -68,6 +68,11 @@ body{
     -webkit-transition: color 0.2s ease;
     -moz-transition: color 0.2s ease;
     transition: color 0.2s ease;
+}
+
+.top-navBar-content-borrow-rent-div{
+    display: inline-block;
+    float: left;
 }
 
 .top-navBar-content-borrow{
@@ -175,6 +180,7 @@ body{
     font-size: 16px;
     color: #f97345;
 }
+
 /*中间部分*/
 .middle-contentArea{
     width: 100%;
@@ -224,3 +230,81 @@ body{
     -o-transition: color 0.3s  ease;
     transition: color 0.3s  ease;
 }
+
+/*for 320px or less*/
+@media screen and (max-width: 320px){
+    .top-navBar{
+        min-width: 320px;
+    }
+
+    .top-navBar-content{
+        width: 100%;
+    }
+
+    .top-navBar-content-logo{
+        display: block;
+        width: 100%;
+        background: url('../img/public-index-logo.png') no-repeat center;
+    }
+
+    .top-navBar-content-address{
+        display: none;
+    }
+
+    .top-navBar-content-borrow-rent-div{
+        display: block;
+        width: 100%;
+        height: auto;
+        padding-left: 45px;
+    }
+
+    .top-navBar-content-borrow{
+        display: inline-block;
+        margin-top: 5px;
+    }
+
+    .top-navBar-content-borrow-split{
+        display: inline-block;
+        height: 20px;
+    }
+
+    .top-navBar-content-rent{
+        display: inline-block;
+        margin-top: 5px;
+    }
+
+    .search-form{
+        display: block;
+        height: auto;
+        padding-top: 5px;
+        margin-bottom: 15px;
+    }
+
+    .top-navBar-content-button{
+        display: none;
+    }
+
+    .top-navBar-content-button-split{
+        display: none;
+    }
+
+    .top-navBar-content-button a{
+        display: none;
+    }
+
+    .middle-contentArea{
+        height: auto;
+    }
+
+    /*下面显示的是底部的内容*/
+    .bottom-linkBar{
+        height: 40px;
+    }
+
+    .bottom-linkBar-content{
+        width: 100%;
+    }
+}
+
+
+

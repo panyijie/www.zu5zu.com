@@ -2,6 +2,9 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
     <title>public-index</title>
     <link rel="stylesheet" type="text/css" href="bootstrap-3.3.4-dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/public.css"/>
@@ -15,9 +18,11 @@
     <div class="top-navBar-content">
         <a href="index.html"><span class="top-navBar-content-logo"></span></a>
         <span class="top-navBar-content-address">哈尔滨工业大学&nbsp;&nbsp;<a href="#">[更改]</a></span>
-        <a href="public-rentItem.html"><span class="top-navBar-content-borrow">我要借</span></a>
-        <span class="top-navBar-content-borrow-split"></span>
-        <a href="public-rentInNeed.html"><span class="top-navBar-content-rent">发布求租</span></a>
+        <div class="top-navBar-content-borrow-rent-div">
+            <a href="public-rentItem.html"><span class="top-navBar-content-borrow">我要借</span></a>
+            <span class="top-navBar-content-borrow-split"></span>
+            <a href="public-rentInNeed.html"><span class="top-navBar-content-rent">发布求租</span></a>
+        </div>
         <form class="search-form">
             <input class="search-input" placeholder="你想租什么？"/>
             <a href="public-rentItem.html">租</a>
@@ -25,6 +30,7 @@
         <span class="top-navBar-content-button"><a href="public-register.html">注册</a></span>
         <span class="top-navBar-content-button-split"></span>
         <span class="top-navBar-content-button"><a href="public-login.html">登录</a></span>
+        <div class="clear"></div>
     </div>
     <div class="clear"></div>
 </div>
@@ -79,6 +85,7 @@
             <a href="public-rentInfo.html"><span class="middle-content-popular-item">西装</span></a>
             <a href="public-rentInfo.html" class="popular-active"><span class="middle-content-popular-item">军训服</span></a>
         </div>
+        <div class="clear"></div>
     </div>
 </div>
 <div class="clear"></div>
