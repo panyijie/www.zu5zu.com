@@ -14,6 +14,7 @@ body{
 .top-navBar{
     width: 100%;
     height: auto;
+    min-width: 1100px;
     background-color: #FFFFFF;
     -moz-box-shadow: 0px 0px 6px #999;
     -o-box-shadow: 0px 0px 6px #999;
@@ -231,10 +232,11 @@ body{
     transition: color 0.3s  ease;
 }
 
-/*for 320px or less*/
-@media screen and (max-width: 320px){
+
+/*for 414px or less*/
+@media screen and (max-width: 414px){
     .top-navBar{
-        min-width: 320px;
+        min-width: 414px;
     }
 
     .top-navBar-content{
@@ -255,29 +257,32 @@ body{
         display: block;
         width: 100%;
         height: auto;
-        padding-left: 45px;
+        text-align: center;
     }
 
     .top-navBar-content-borrow{
         display: inline-block;
-        margin-top: 5px;
+        float: none;
+        margin: 0;
     }
 
     .top-navBar-content-borrow-split{
-        display: inline-block;
-        height: 20px;
+        height: 60px;
+        float: none;
     }
 
     .top-navBar-content-rent{
+        float: none;
         display: inline-block;
-        margin-top: 5px;
+        margin: 0 0 0 10px;
     }
 
     .search-form{
         display: block;
         height: auto;
+        width: 100%;
         padding-top: 5px;
-        margin-bottom: 15px;
+        margin: 0 0 15px 0;
     }
 
     .top-navBar-content-button{
@@ -299,10 +304,25 @@ body{
     /*下面显示的是底部的内容*/
     .bottom-linkBar{
         height: 40px;
+        margin-top: 10px;
     }
 
     .bottom-linkBar-content{
         width: 100%;
+    }
+}
+
+/*for 375px or less*/
+@media screen and (max-width: 375px){
+    .top-navBar{
+        min-width: 375px;
+    }
+}
+
+/*for 320px or less*/
+@media screen and (max-width: 320px){
+    .top-navBar{
+        min-width: 320px;
     }
 }
 

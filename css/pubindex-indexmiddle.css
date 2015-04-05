@@ -106,7 +106,7 @@
     color: #f86833;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 414px){
     .middle-content{
         width: 100%;
     }
