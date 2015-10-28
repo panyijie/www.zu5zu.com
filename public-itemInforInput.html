@@ -2,10 +2,11 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>求租消息发布页面</title>
+    <title>出租消息发布页面</title>
     <link rel="stylesheet" type="text/css" href="bootstrap-3.3.4-dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/public.css"/>
     <link rel="stylesheet" type="text/css" href="css/public-rentInNeed.css"/>
+    <link rel="stylesheet" type="text/css" href="css/public-itemInforInput.css"/>
     <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
     <script src="js/public-shop-ranking.js"></script>
 </head>
@@ -21,7 +22,9 @@
             <input class="search-input" placeholder="你想租什么？"/>
             <a href="#">租</a>
         </form>
-        <span class="top-navBar-content-button"><a href="public-register.html">潘逸杰</a></span>
+        <span class="top-navBar-content-button"><a href="public-register.html">注册</a></span>
+        <span class="top-navBar-content-button-split"></span>
+        <span class="top-navBar-content-button"><a href="public-login.html">登录</a></span>
     </div>
     <div class="clear"></div>
 </div>
@@ -31,9 +34,9 @@
             <div class="middle-information-div">
                 <span class="middle-information-img"></span>
                 <span class="middle-information-content">
-                    Elvis Pan<br/>
-                    <a href="public-login.html">出租</a>
-                    <a href="public-register.html">求租</a>
+                    登录看更多内容<br/>
+                    <a href="public-login.html">登录</a>
+                    <a href="public-register.html">注册</a>
                 </span>
                 <span class="middle-information-button-group">
                     <a href="#" class="middle-information-button-group-1">使用微博账号登陆</a>
@@ -89,17 +92,17 @@
             <div class="middle-content-right-issue">
                 <div class="middle-rent-content">
                     <div class="rent-content-form-group">
-                        <span class="rent-content-form-title"><label>发布求租消息</label></span>
+                        <span class="rent-content-form-title"><label>出租物品信息填写</label></span>
                         <form class="rent-content-form">
                             <table>
                                 <tr>
                                     <td><label class="rent-content-form-imp">*</label></td>
-                                    <td><label class="rent-content-form-lab">信息发布人：</label></td>
+                                    <td><label class="rent-content-form-lab">物品出租人：</label></td>
                                     <td><label class="rent-content-form-publisher">ElvisPan</label></td>
                                 </tr>
                                 <tr>
                                     <td><label class="rent-content-form-imp">*</label></td>
-                                    <td><label class="rent-content-form-lab">求租地区/区域：</label></td>
+                                    <td><label class="rent-content-form-lab">出租地区/区域：</label></td>
                                     <td>
                                         <select>
                                             <option value="bj">北京</option>
@@ -111,12 +114,12 @@
                                 </tr>
                                 <tr>
                                     <td><label class="rent-content-form-imp">*</label></td>
-                                    <td><label class="rent-content-form-lab">求租商品名称：</label></td>
+                                    <td><label class="rent-content-form-lab">出租商品名称：</label></td>
                                     <td><input class="rent-content-form-input" type="text" placeholder="请输入商品名称" style="width: 150px"/></td>
                                 </tr>
                                 <tr>
                                     <td><label class="rent-content-form-imp">*</label></td>
-                                    <td><label class="rent-content-form-lab">求租商品类别：</label></td>
+                                    <td><label class="rent-content-form-lab">出租商品类别：</label></td>
                                     <td>
                                         <select name="" id="">
                                             <option value="">电子数码</option>
@@ -131,13 +134,21 @@
                                 </tr>
                                 <tr>
                                     <td style="vertical-align: top"><label class="rent-content-form-imp">*</label></td>
-                                    <td style="vertical-align: top"><label class="rent-content-form-lab">求租商品描述：</label><small class="help-block">(200字以内)</small></td>
+                                    <td style="vertical-align: top"><label class="rent-content-form-lab">出租商品描述：</label><small class="help-block">(200字以内)</small></td>
                                     <td><textarea class="rent-content-form-text" cols="30" rows="5"></textarea></td>
                                 </tr>
                                 <tr>
                                     <td><label class="rent-content-form-imp">*</label></td>
-                                    <td><label class="rent-content-form-lab">求租商品价格</label></td>
-                                    <td><input class="rent-content-form-input input-price" type="text"/>~<input class="rent-content-form-input input-price" type="text"/>元/天</td>
+                                    <td><label class="rent-content-form-lab">出租商品日期</label></td>
+                                    <td>
+                                        <input class="rent-content-form-input input-price" style="width: 80px;" placeholder="2015/06/12" type="text"/>~
+                                        <input class="rent-content-form-input input-price" style="width: 80px;" placeholder="2015/08/12" type="text"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label class="rent-content-form-imp">*</label></td>
+                                    <td><label class="rent-content-form-lab">出租商品价格</label></td>
+                                    <td><input class="rent-content-form-input input-price" type="text"/>元/天</td>
                                 </tr>
                                 <tr>
                                     <td><label class="rent-content-form-imp">*</label></td>

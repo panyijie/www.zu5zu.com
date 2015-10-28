@@ -51,6 +51,7 @@
     background: url("../img/middle-information-img.png") no-repeat;
 }
 
+/*登录状态时候的显示内容*/
 .middle-information-content{
     display: block;
     float: left;

@@ -1,0 +1,233 @@
+div{
+    box-sizing: border-box;
+}
+
+.personal-content{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    -moz-box-shadow: 0px 0px 6px #d7d7d7;
+    -webkit-box-shadow: 0px 0px 6px #d7d7d7;
+    box-shadow: 0px 0px 6px #d7d7d7;
+    padding: 20px 40px;
+}
+
+.personal-content-image{
+    width: 200px;
+    height: 200px;
+    float: left;
+    line-height: 0;
+    position: relative;
+}
+
+.personal-content-image img{
+    width: 200px;
+    height: 200px;
+    -moz-box-shadow: 0px 3px 2px #eeeeee;
+    -webkit-box-shadow: 0px 3px 2px #eeeeee;
+    box-shadow: 0px 3px 2px #eeeeee;
+}
+
+/*.personal-content-image-hover{*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*display: none;*/
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /*z-index: 100;*/
+    /*background: url('../img/personal-content-image-hover.png') 100%;*/
+/*}*/
+
+.personal-content-information{
+    width: 540px;
+    height: 200px;
+    border-left: 1px solid #eeeeee;
+    float: left;
+    margin-left: 20px;
+    text-align: left;
+    padding: 20px 0 0 15px;
+    color: #333333;
+    background: url('../img/personal-information-img.png');
+    position: relative;
+}
+
+.personal-content-information a{
+    text-decoration: none;
+}
+
+.personal-content-information span{
+    display: block;
+    margin-bottom: 8px;
+}
+
+.personal-content-name{
+    font-size: 25px;
+    color: #f86833;
+    font-weight: bolder;
+}
+
+.personal-content-certification-Y{
+    color: green;
+}
+
+.personal-content-history{
+    display: block;
+    color: #ffffff;
+    padding: 5px 10px;
+    width: 135px;
+    height: 30px;
+    background-color: #229cff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.personal-content-history:hover{
+    color: #ffffff;
+}
+
+.personal-content-edit{
+    border: none;
+    background: none;
+    display: none;
+    position: absolute;
+    left: 260px;
+    top: 20px;
+    color: #666666;
+    cursor: pointer;
+}
+
+.personal-content-split{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.personal-content-split span{
+    display: inline-block;
+
+}
+
+.personal-content-split-left{
+    width: 10px;
+    height: 70%;
+    border-bottom: 3px solid #cccccc;
+}
+
+.personal-content-split-title{
+    color: #f86833;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0 5px;
+}
+
+.personal-content-split-right{
+    width: 620px;
+    height: 70%;
+    border-bottom: 3px solid #cccccc;
+}
+
+
+.personal-content-item{
+    width: 98%;
+    height: 50px;
+    -moz-box-shadow: 0px 0px 6px #d7d7d7;
+    -webkit-box-shadow: 0px 0px 6px #d7d7d7;
+    box-shadow: 0px 0px 6px #d7d7d7;
+    margin-top: 10px;
+    text-align: left;
+    padding: 15px 20px;
+    color: #bbbbbb;
+}
+
+#pop-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    -moz-opacity: 0.8;
+    opacity:0.8;
+    filter: alpha(opacity=80);
+}
+
+#pop-box{
+    width: 680px;
+    height: 340px;
+    z-index: 101;
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin:-208px 0 0 -340px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.pop-box-title{
+    width: 100%;
+    height: 50px;
+    color: #333333;
+    font-size: 30px;
+    text-align: left;
+    font-weight: bolder;
+    padding: 0 0 10px 20px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.pop-box-form{
+    width: 100%;
+    height: 230px;
+    margin-top: 20px;
+}
+
+.pop-box-form table{
+    margin-left: 50px;
+}
+
+.pop-box-form table tr{
+    height: 60px;
+}
+
+.pop-box-form table tr td input{
+    padding-left: 10px;
+}
+
+.pop-box-form table tr td input:focus{
+    background: none no-repeat;
+    outline:medium;
+    border: 1px solid #0a9cff;
+}
+
+.pop-box-form-star{
+    color: red;
+}
+
+.pop-box-form-td{
+    width: 100px;
+    text-align: center;
+}
+
+.pop-box-form-input{
+    margin:10px 0 0 155px;
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #0a9cff;
+    border: none;
+    color: #ffffff;
+}
+
+#pop-close{
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    font-weight: lighter;
+    font-size: 18px;
+    cursor: pointer;
+    color: #FFB160;
+}

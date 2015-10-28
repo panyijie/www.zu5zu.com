@@ -559,13 +559,13 @@
     }
 
     .middle-content-shopList-item-prove img{
-        width: 12px;
-        height: 12px;
+        width: 14px;
+        height: 14px;
     }
 
     .glyphicon-star{
         margin: 4px 0 0 3px;
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .middle-content-shopList-item-img{
@@ -581,13 +581,13 @@
     .middle-content-shopList-item-hotItem{
         margin: 5px 3px 0 0;
         padding:2px 3px;
-        font-size: 6px;
+        font-size: 11px;
     }
 
     .middle-content-shopList-item-super-hotItem{
         margin: 5px 3px 0 0;
         padding:2px 3px;
-        font-size: 6px;
+        font-size: 11px;
     }
 
     .middle-content-shopList-item-active{
@@ -602,7 +602,7 @@
     }
 
     .middle-content-shopList-item-more a{
-        font-size: 8px;
+        font-size: 13px;
     }
 
     .main-content-list{
@@ -632,6 +632,7 @@
         height: auto;
         padding: 2px;
         margin: 5px 12px 5px 0;
+        border: 1px solid #e7e7e7;
     }
 
     .main-content-list-item-popular{
@@ -640,13 +641,13 @@
 
     .main-content-list-item-photo{
         display: block;
-        width: 171px;
-        height: 171px;
+        width: 169px;
+        height: 169px;
     }
 
     .main-content-list-item-photo img{
-        width: 171px;
-        height: 171px;
+        width: 169px;
+        height: 169px;
     }
 
     .main-content-list-item-title{
@@ -722,7 +723,7 @@
     }
 
     .main-content-rent-list-item-description a{
-        font-size: 5px;
+        font-size: 12px;
     }
 
     .main-content-rent-list-item-photo{
@@ -782,7 +783,7 @@
 
     .middle-content-shopList-item-shopName{
         display: block;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .glyphicon-chevron-right{
@@ -790,8 +791,8 @@
     }
 
     .middle-content-shopList-item-prove img{
-        width: 12px;
-        height: 12px;
+        width: 13px;
+        height: 13px;
     }
 
     .glyphicon-star{
@@ -812,13 +813,13 @@
     .middle-content-shopList-item-hotItem{
         margin: 3px 3px 0 0;
         padding:2px 3px;
-        font-size: 6px;
+        font-size: 11px;
     }
 
     .middle-content-shopList-item-super-hotItem{
         margin: 3px 3px 0 0;
         padding:2px 3px;
-        font-size: 6px;
+        font-size: 11px;
     }
 
     .middle-content-shopList-item-active{
@@ -833,7 +834,7 @@
     }
 
     .middle-content-shopList-item-more a{
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .main-content-list{
@@ -871,13 +872,13 @@
 
     .main-content-list-item-photo{
         display: block;
-        width: 150px;
-        height: 150px;
+        width: 148px;
+        height: 148px;
     }
 
     .main-content-list-item-photo img{
-        width: 150px;
-        height: 150px;
+        width: 148px;
+        height: 148px;
     }
 
     .main-content-list-item-title{
@@ -953,7 +954,7 @@
     }
 
     .main-content-rent-list-item-description a{
-        font-size: 5px;
+        font-size: 10px;
     }
 
     .main-content-rent-list-item-photo{
@@ -1014,7 +1015,7 @@
 
     .middle-content-shopList-item-shopName{
         display: block;
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .glyphicon-chevron-right{
@@ -1022,13 +1023,13 @@
     }
 
     .middle-content-shopList-item-prove img{
-        width: 10px;
-        height: 10px;
+        width: 12px;
+        height: 12px;
     }
 
     .glyphicon-star{
         margin: 4px 0 0 3px;
-        font-size: 7px;
+        font-size: 8px;
     }
 
     .middle-content-shopList-item-img{
@@ -1191,7 +1192,7 @@
     }
 
     .main-content-rent-list-item-description a{
-        font-size: 5px;
+        font-size: 10px;
     }
 
     .main-content-rent-list-item-photo{

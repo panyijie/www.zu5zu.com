@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="bootstrap-3.3.4-dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/public.css"/>
     <link rel="stylesheet" type="text/css" href="css/public-login.css"/>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="js/public-login.js"></script>
 </head>
 <body>
 <div class="top-navBar">
@@ -29,27 +31,32 @@
     <div class="middle-login-content">
         <div class="login-content-form-group">
             <span class="login-content-form-title"><label>用户登录</label></span>
-            <form class="login-content-form">
+            <form class="login-content-form" name="login-form" action = "login.do" method = "post">
                 <table>
                     <tr>
                         <td><label class="login-content-form-imp">*</label></td>
-                        <td><label class="login-content-form-lab">用户名/邮箱：</label></td>
-                        <td><input class="login-content-form-input" type="text" placeholder="请输入用户名/邮箱"/></td>
+                        <td><label class="login-content-form-lab">登录邮箱：</label></td>
+                        <td><input class="login-content-form-input" type="text" id="email" placeholder="请输入登录邮箱"/></td>
+                        <td><span class="login-content-form-input-nameInvalid">用户邮箱不存在</span></td>
                     </tr>
                     <tr>
                         <td><label class="login-content-form-imp">*</label></td>
                         <td><label class="login-content-form-lab">密码：</label></td>
-                        <td><input class="login-content-form-input" type="password" placeholder="请输入密码"/></td>
+                        <td><input class="login-content-form-input" type="password" placeholder="请输入密码" id="password"/></td>
+                        <td><span class="login-content-form-input-psdInvalid">密码不正确，请重新输入</span></td>
                     </tr>
+                    <!--<tr>-->
+                        <!--<td></td>-->
+                        <!--<td></td>-->
+                        <!--<td><a href="#">忘记密码？</a></td>-->
+                    <!--</tr>-->
                     <tr>
                         <td></td>
                         <td></td>
-                        <td><a href="#">忘记密码？</a></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td><button class="login-content-form-button" >登录</button></td>
+                        <td>
+                            <input class="login-content-form-button" id="login-content-form-button" value="登录" type="button"/>
+                            <span class="login-content-form-input-false">用户不存在或密码不正确，请重新输入</span>
+                        </td>
                     </tr>
                 </table>
             </form>
@@ -59,7 +66,6 @@
             <span>第三方登录</span>
             <a href="#" class="login-content-button-group-1">使用微博账号登陆</a>
             <a href="#" class="login-content-button-group-2">使用QQ账号登陆</a>
-            <a href="#" class="login-content-button-group-3">使用微信账号登陆</a>
         </div>
     </div>
 </div>

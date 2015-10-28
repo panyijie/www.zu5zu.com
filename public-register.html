@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="css/public.css"/>
     <link rel="stylesheet" type="text/css" href="css/public-login.css"/>
     <link rel="stylesheet" type="text/css" href="css/public-register.css"/>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="js/register-check.js"></script>
 </head>
 <body>
 <div class="top-navBar">
@@ -30,47 +32,47 @@
     <div class="middle-login-content">
         <div class="login-content-form-group">
             <span class="login-content-form-title"><label>新用户注册</label></span>
-            <form class="login-content-form">
+            <form class="login-content-form" id="register-form" action="" method="post">
                 <table>
                     <tr>
                         <td><label class="login-content-form-imp">*</label></td>
-                        <td><label class="login-content-form-lab">邮箱/手机：</label></td>
-                        <td><input class="login-content-form-input" type="text" placeholder="请输入邮箱/手机"/></td>
-                        <td><span>请输入6-10位用户名或邮箱</span></td>
+                        <td><label class="login-content-form-lab">邮箱：</label></td>
+                        <td><input class="login-content-form-input" id="register-email" type="text" placeholder="请输入登录邮箱"/></td>
+                        <td><span class="register-email-tips"></span></td>
                     </tr>
                     <tr>
                         <td><label class="login-content-form-imp">*</label></td>
                         <td><label class="login-content-form-lab">密码：</label></td>
-                        <td><input class="login-content-form-input" type="password" placeholder="请输入密码"/></td>
-                        <td><span>请输入6-10位用户名或邮箱</span></td>
+                        <td><input class="login-content-form-input" id="register-psd" type="password" placeholder="请输入密码"/></td>
+                        <td><span class="register-psd-tips"></span></td>
                     </tr>
                     <tr>
                         <td><label class="login-content-form-imp">*</label></td>
                         <td><label class="login-content-form-lab">确认密码：</label></td>
-                        <td><input class="login-content-form-input" type="password" placeholder="请再次输入密码"/></td>
-                        <td><span>请输入6-10位用户名或邮箱</span></td>
+                        <td><input class="login-content-form-input" id="register-confirm" type="password" placeholder="请再次输入密码"/></td>
+                        <td><span  class="register-confirmpsd-tips"></span></td>
                     </tr>
                     <tr>
                         <td><label class="login-content-form-imp">*</label></td>
                         <td><label class="login-content-form-lab">昵称：</label></td>
-                        <td><input class="login-content-form-input" type="text" placeholder="昵称"/></td>
-                        <td><span>请输入6-10位用户名或邮箱</span></td>
+                        <td><input class="login-content-form-input" id="register-nickname" type="text" placeholder="请输入少于10位的用户昵称"/></td>
+                        <td><span class="register-nickname-tips"></span></td>
                     </tr>
+                    <!--<tr>-->
+                        <!--<td><label class="login-content-form-imp">*</label></td>-->
+                        <!--<td><label class="login-content-form-lab">验证码：</label></td>-->
+                        <!--<td><input class="login-content-form-input login-content-form-input-validate" type="text" placeholder="请输入右图验证码"/></td>-->
+                        <!--<td><img/><a href="#">换一换</a></td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                        <!--<td></td>-->
+                        <!--<td></td>-->
+                        <!--<td><input type="checkbox" checked/>&nbsp;&nbsp;我已阅读<a href="#">《用户注册手册》</a></td>-->
+                    <!--</tr>-->
                     <tr>
-                        <td><label class="login-content-form-imp">*</label></td>
-                        <td><label class="login-content-form-lab">验证码：</label></td>
-                        <td><input class="login-content-form-input login-content-form-input-validate" type="text" placeholder="请输入右图验证码"/></td>
-                        <td><img/><a href="#">换一换</a></td>
-                    </tr>
-                    <tr>
                         <td></td>
                         <td></td>
-                        <td><input type="checkbox" checked/>&nbsp;&nbsp;我已阅读<a href="#">《用户注册手册》</a></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td><button class="login-content-form-button" >完成注册</button></td>
+                        <td><input id="login-content-form-button" type="button" class="login-content-form-button" value="完成注册"/></td>
                     </tr>
                 </table>
             </form>

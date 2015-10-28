@@ -58,7 +58,7 @@
 }
 
 .login-content-form{
-     margin: 60px 0 0 150px;
+     margin: 60px 0 0 130px;
  }
 
 .login-content-form table{
@@ -101,6 +101,16 @@
     border: 1px solid #0a9cff;
 }
 
+.login-content-form-input-nameInvalid{
+    color: #ff4843;
+    display: none;
+}
+
+.login-content-form-input-psdInvalid{
+    color: #ff4843;
+    display: none;
+}
+
 .login-content-form-imp{
     color: red;
     margin-right: 6px;
@@ -127,9 +137,15 @@
     transition: background-color 0.3s ease;
 }
 
+.login-content-form-input-false{
+    margin-left: 15px;
+    color: #ff4843;
+    display: none;
+}
+
 .login-content-split{
     width: 2%;
-    height: 400px;
+    height: 350px;
     margin: 15px 0;
     border-left: 0.1em solid #f3f3f3;
     float: left;

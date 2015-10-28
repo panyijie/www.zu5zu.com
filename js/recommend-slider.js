@@ -8,9 +8,11 @@ var addEvent = function(obj,event,fun){
         obj.attachEvent("on"+event,fun)
     }
 };
+
 var lnSlider = document.getElementById("middle-recommend");
 addEvent(window,"scroll",function(){
     var scrollHeight = document.body.scrollTop;
+
     console.log(scrollHeight);
     if(scrollHeight > 755){
         lnSlider.style.position = "absolute";
